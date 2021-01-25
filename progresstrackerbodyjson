@@ -1,0 +1,37 @@
+{
+    "sections": [
+        {
+            "displayname": "Track Name",
+            "fields": [
+                "Title"
+            ]
+        },
+        {
+            "displayname": "Allocation Details",
+            "fields": [
+                "Allocated",
+                "Allocatedto"
+            ]
+        },
+        {
+            "displayname": "Package Details",
+            "fields": [
+                "Shipped",
+                "Shippedby"
+            ]
+        },
+        {
+            "displayname": "Delivery Details",
+            "fields": [
+                "Delivered",
+                "Deliveredto"
+            ]
+        },
+        {
+            "displayname": "Status",
+            "fields": [
+                "Status"
+            ]
+        }
+    ]
+}
