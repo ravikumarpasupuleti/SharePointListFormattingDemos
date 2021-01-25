@@ -1,0 +1,28 @@
+{
+    "elmType": "div",
+    "style": {
+        "display": "flex",
+        "justify-content": "space-between",
+        "border-radius": "10px 10px 0 0",
+        "padding": "8px",
+        "font-size": "36px"
+    },
+    "attributes": {
+        "class": "=if([$Status] == '', 'ms-bgColor-redLight', if([$Status] == 'Assigned', 'ms-bgColor-blueLight', if([$Status] == 'Approved', 'ms-bgColor-yellowLight', if([$Status] == 'Completed', 'ms-bgColor-greenLight', 'ms-bgColor-orangeLight')))) + ' ms-fontColor-neutralPrimary'",
+        "iconName": "=if([$Status] == 'Assigned', 'ActivateOrders', if([$Status] == 'Approved', 'ArrangeByFrom', if([$Status] == 'Completed', 'AwayStatus', if([$Status] == 'dd', 'AwayStatus', 'Blocked2Solid'))))",
+        "title": "[$Status]"
+    },
+    "children": [
+        {
+            "elmType": "div",
+            "txtContent": "=if ([$Status] == '', 'Item  Status', 'Status: ' + [$Status])"
+        },
+        {
+            "elmType": "div",
+            "attributes": {
+                "iconName": "=if([$Status] == 'Assigned', 'ActivateOrders', if([$Status] == 'Approved', 'ArrangeByFrom', if([$Status] == 'Completed', 'AwayStatus', if([$Status] == 'dd', 'AwayStatus', 'Blocked2Solid'))))",
+                "title": "[$Status]"
+            }
+        }
+    ]
+}
