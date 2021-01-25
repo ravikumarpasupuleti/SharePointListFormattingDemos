@@ -2,7 +2,7 @@
 
 # Progress Tracker
 
-![Image of Contribution](../FormSamples/ProgressTracker/ProgressTrackerRef.png)
+![Image of Contribution](https://github.com/ravikumarpasupuleti/SharePointListFormatitingExamples/blob/master/FormSamples/ProgressTracker/ProgressTrackerRef.png)
 
 # Issue Tracker 
-![Image of Contribution](..IssueTracker/IsssueTrackerRef.png)
+![Image of Contribution](https://github.com/ravikumarpasupuleti/SharePointListFormatitingExamples/blob/master/FormSamples/IssueTracker/IsssueTrackerRef.png)
