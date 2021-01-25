@@ -1,7 +1,8 @@
-# SharePoint List Formatting Samples - Forms 
+# SharePoint List Forms Formmatting Samples
 
-#Progress Tracker
-![Image of Contribution](..../ProgressTracker/ProgressTrackerRef.png)
+# Progress Tracker
+
+![](https://github.com/ravikumarpasupuleti/SharePointListFormatitingExamples/blob/master/FormSamples/ProgressTracker/ProgressTrackerRef.png)
 
 # Issue Tracker 
-![Image of Contribution](..../../IsssueTrackerRef.png)
+![](https://github.com/ravikumarpasupuleti/SharePointListFormatitingExamples/blob/master/FormSamples/IssueTracker/IsssueTrackerRef.png)
